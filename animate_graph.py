@@ -76,7 +76,7 @@ class GraphVisualizer(QMainWindow):
         btn_add_edge.clicked.connect(self.ui_add_edge)
 
         self.combo_algo = QComboBox()
-        self.combo_algo.addItems(["BFS", "Tarjan (Orden Topológico)"])
+        self.combo_algo.addItems(["Tarjan (Orden Topológico)","BFS"])
 
         self.spin_start = QSpinBox()
         self.spin_start.setRange(0, 999)
