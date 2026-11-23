@@ -8,7 +8,7 @@ Se combina una estructura programada en C++ (expuesta mediante `pybind11`) y la 
 # Requisitos Previos
 * Python: Versión 3.8 o superior.
 * Compilador C++: Compatible con C++11 o superior (por ejemplo, MinGW-w64 en Windows, GCC en Linux o Clang en macOS).
-* CMake: Versión 4.0 (según lo especificado en `CMakeLists.txt`; puede ajustarse si utilizas una versión anterior).
+* CMake: Versión 4.0
 * Librerías de Python:
   * `pybind11`
   * `PySide6`
